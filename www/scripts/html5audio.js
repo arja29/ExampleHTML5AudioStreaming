@@ -1,4 +1,3 @@
-
 var progressTimer;
 
 var playButton;
@@ -21,7 +20,7 @@ function pad2(number) {
 	return (number < 10 ? '0' : '') + number
 }
 
-var myaudioURL = 'http://64.120.228.226:8058/listen.pls;';
+var myaudioURL = 'http://64.120.228.226:8058/;';
 var myaudio = new Audio(myaudioURL);
 var isPlaying = false;
 var readyStateInterval = null;
