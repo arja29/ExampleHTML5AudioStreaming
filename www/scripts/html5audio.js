@@ -20,7 +20,7 @@ function pad2(number) {
 	return (number < 10 ? '0' : '') + number
 }
 
-var myaudioURL = 'http://74.222.7.27:8058/;';
+var myaudioURL = 'http://74.222.7.27:8058/listen.pls;';
 var myaudio = new Audio(myaudioURL);
 var isPlaying = false;
 var readyStateInterval = null;
